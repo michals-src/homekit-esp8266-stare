@@ -1,0 +1,38 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #2b2379 !important;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+header#main{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 250px;
+  color: #fff;
+}
+
+.btn-icon{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color:#fff;
+}
+
+.topper-notice{
+  background: red;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+  .topper-notice p{
+    margin: 0;
+  }
+  .topper-notice.visible{
+    display: block;
+  }
